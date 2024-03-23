@@ -6,7 +6,14 @@ public class Tienda {
 	Producto producto;
 	private String direccion;
 	private int telefono;
-	
+
+
+	public void getTelefono(){
+		return this.telefono;
+	}
+	public void setTelefono(int telefono){
+		this.telefono=telefono;
+	}
 	
 	public Tienda() {
 		super();
