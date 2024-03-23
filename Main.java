@@ -26,6 +26,9 @@ public class MainTienda {
 		Tienda decathlon = new Tienda ();
 		System.out.println(decathlon.toString());
 
+		Tienda fruteria = new Tienda("Avenida Barcelona 4", 911235040);
+		Tienda pescaderia = new Tienda("Calle Mayor 56", 923461826);
+		Tienda libreria = new Tienda("Via Adamo 7", 934571895);
 	}
 
 }
